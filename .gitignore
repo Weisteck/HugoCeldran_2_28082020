@@ -4,3 +4,7 @@ Projet+*
 Raleway/*.txt
 #ignore les ecritures non nécessaires
 Raleway/static/*
+#ignore les fichiers de mac useless
+.DS_Store
+#ignore les autres fichiers de mac useless
+img/.DS_Store

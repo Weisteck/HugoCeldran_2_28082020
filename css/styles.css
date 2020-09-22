@@ -99,6 +99,7 @@ footer, .first_section, .second_section {
 	.grid-container-top {
 		grid-template-areas: "b" "a";
 		grid-template-columns: 1fr;
+		grid-gap: 10px;
 	}
 	
 	body {
@@ -110,5 +111,10 @@ footer, .first_section, .second_section {
 	.grid-container {
 		display: grid;
 		grid-template-columns: 100%;
+		grid-gap: 10px;
+		padding: 2%;
+	}
+	.gallery {
+		width: auto;
 	}
 }
