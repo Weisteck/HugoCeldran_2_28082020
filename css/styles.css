@@ -66,7 +66,7 @@ footer, .first_section, .second_section {
 	grid-gap: 10%;
 	padding: 2%;
 }
-
+ 
 .img-1 {
 	background-image: url(../img/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
 }
@@ -85,6 +85,15 @@ footer, .first_section, .second_section {
 .img-6 {
 	background-image: url(../img/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
 }
+.img-7 {
+	background-image: url(../img/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+}
+.img-8 {
+	background-image: url(../img/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg);
+}
+.img-9 {
+	background-image: url(../img/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+}
 
 @media all and (max-width: 640px) {
 	.grid-container-top {
@@ -94,5 +103,12 @@ footer, .first_section, .second_section {
 	
 	body {
 		background-color: pink;
+	}
+	.section1 {
+		margin-bottom: 80px;
+	}
+	.grid-container {
+		display: grid;
+		grid-template-columns: 100%;
 	}
 }
