@@ -17,7 +17,6 @@ body {
 	grid-template-areas: "a b";
 	grid-template-columns: 65% 35%;
 	grid-gap: 5%;
-	padding: 2%;
 }
 
 .grid-item-top-1 {
@@ -66,7 +65,25 @@ footer, .first_section, .second_section {
 	grid-gap: 10%;
 	padding: 2%;
 }
- 
+
+.grid-container-nav {
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+
+header ul {
+	list-style-type: none;
+}
+
+header li {
+	display: inline;
+}
+
+#logo {
+	width: 25%;
+	height: 50px;
+}
+
 .img-1 {
 	background-image: url(../img/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
 }
@@ -116,5 +133,33 @@ footer, .first_section, .second_section {
 	}
 	.gallery {
 		width: auto;
+	}
+	
+	.img-1 {
+	background-image: url(../img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+	}
+	.img-2 {
+		background-image: url(../img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+	}
+	.img-3 {
+		background-image: url(../img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+	}
+	.img-4 {
+		background-image: url(../img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+	}
+	.img-5 {
+		background-image: url(../img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+	}
+	.img-6 {
+		background-image: url(../img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+	}
+	.img-7 {
+		background-image: url(../img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+	}
+	.img-8 {
+		background-image: url(../img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+	}
+	.img-9 {
+		background-image: url(../img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
 	}
 }
