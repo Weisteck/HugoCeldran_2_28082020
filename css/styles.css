@@ -135,6 +135,11 @@ header li {
 		width: auto;
 	}
 	
+	.grid-container-bas {
+		display: grid;
+		grid-template-columns: auto;
+	}
+	
 	.img-1 {
 	background-image: url(../img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
 	}
