@@ -4,60 +4,105 @@
 		<meta charset="utf-8">
 		<title>Reservia</title>
 		<link rel="stylesheet" href="css/styles.css">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
 	</head>
 	<body>
-		<header>
-			<div class="grid-container-nav">
-				<div class="grid-container-nav">
-					<img src="img/logo/Reservia@3x.png" alt="logo" id="logo">
-				</div>
-				<div class="grid-container-nav">
-					<ul>
-						<li><a href="#">Hébergement</a></li>
-						<li><a href="#">Activités</a></li>
-						<li><a href="#">S'inscrire</a></li>
-					</ul>
-				</div>		
-			</div>	
-		</header>
-		<section class="top_page">
-			<div>
-			</div>
-		</section>
-		<section class="middle_page">
-			<div class="grid_container_middle">
-				<div class="grid_item_middle">
-					<div class="grid_container_hebergement">
-						<div class="grid_item_hebergement">1</div>
-						<div class="grid_item_hebergement">2</div>
-						<div class="grid_item_hebergement">3</div>
-						<div class="grid_item_hebergement">4</div>
-						<div class="grid_item_hebergement">5</div>
-						<div class="grid_item_hebergement">6</div>
+		<div class="page_contain">
+			<header>
+				<div class="grid_container_nav">
+					<div class="grid_item_nav">
+						<img src="img/logo/Reservia@3x.png" alt="logo" id="logo">
+					</div>
+					<div class="grid_item_nav">
+						<div class="grid_container_lien">
+							<div class="grid_item_lien">
+								<a href="#">Hébergement</a>
+							</div>
+							<div class="grid_item_lien">
+								<a href="#">Activités</a>
+							</div>
+							<div class="grid_item_lien">
+								<a href="#">S'inscrire</a>
+							</div>
+						</div>
+					</div>		
+				</div>	
+			</header>
+			<section class="top_page">
+				<div>
+					<div>
+						<h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+						<p>En plein centre ville ou pleine nature</p>
+					</div>
+					<div class="grid_container_search">
+						<div class="grid_item_search">icon</div>
+						<div class="grid_item_search">Marseille, France</div>
+						<div class="grid_item_search"><button>Rechercher</button></div>
+					</div>
+					<div class="grid_container_filtres">
+						<div>
+							Filtres
+						</div>
+						<div>
+							<div>icone</div>
+							<div>Economique</div>
+						</div>
+						<div>
+							<div>icone</div>
+							<div>Familial</div>
+						</div>
+						<div>
+							<div>icone</div>
+							<div>Romantique</div>
+						</div>
+						<div>
+							<div>icone</div>
+							<div>Animaux autorisés</div>
+						</div>
+					</div>
+					<div>
+						<div>icone</div>
+						<div>
+							<p>Plus de 500 logements sont disponibles dans cette ville</p>
+						</div>
 					</div>
 				</div>
-				<div class="grid_item_middle">
-					<div class="grid_container_populaire">
-						<div class="grid_item_populaire">1</div>
-						<div class="grid_item_populaire">2</div>
-						<div class="grid_item_populaire">3</div>
+			</section>
+			<section class="middle_page">
+				<div class="grid_container_middle">
+					<div class="grid_item_middle" style="grid-area: a;">
+						<div class="grid_container_hebergement">
+							<div class="grid_item_hebergement">1</div>
+							<div class="grid_item_hebergement">2</div>
+							<div class="grid_item_hebergement">3</div>
+							<div class="grid_item_hebergement">4</div>
+							<div class="grid_item_hebergement">5</div>
+							<div class="grid_item_hebergement">6</div>
+						</div>
+					</div>
+					<div class="grid_item_middle" style="grid-area: b;">
+						<div class="grid_container_populaire">
+							<div class="grid_item_populaire">1</div>
+							<div class="grid_item_populaire">2</div>
+							<div class="grid_item_populaire">3</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<section class="bottom-page">
-			<div class="grid_container_bottom">
-				<div class="item1">1</div>
-				<div class="item2">2</div>
-				<div class="item3">3</div>
-				<div class="item4">4</div>
-				<div class="item5">5</div>
-				<div class="item6">6</div>
-			</div>
-		</section>
+			</section>
+			<section class="bottom-page">
+				<div class="grid_container_bottom">
+					<div class="item1 grid_item_bottom">1</div>
+					<div class="item2 grid_item_bottom">2</div>
+					<div class="item3 grid_item_bottom">3</div>
+					<div class="item4 grid_item_bottom">4</div>
+					<div class="item5 grid_item_bottom">5</div>
+					<div class="item6 grid_item_bottom">6</div>
+				</div>
+			</section>
+		</div>
 		<footer>
-			<div class="grid-container-bas">
-				<div class="grid-item-bas">
+			<div class="grid_container_footer">
+				<div class="grid_item_footer">
 					<h3>A propos</h3>
 					<ul>
 						<li>Fonctionnement du site</li>
@@ -65,14 +110,14 @@
 						<li>Données et confidentialité</li>
 					</ul>
 				</div>
-				<div class="grid-item-bas">
+				<div class="grid_item_footer">
 					<h3>Nos Hébergements</h3>
 					<ul>
 						<li>Charte qualité</li>
 						<li>Soumettre votre hôtel</li>
 					</ul>
 				</div>
-				<div class="grid-item-bas">
+				<div class="grid_item_footer">
 					<h3>Assistance</h3>
 					<ul>
 						<li>Centre d'aide</li>
