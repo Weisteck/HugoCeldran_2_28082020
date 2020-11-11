@@ -76,9 +76,23 @@ body {
 }
 
 .grid_item_hebergement {
-	background-color: yellow;
+	background-color: white;
 	box-sizing: border-box;
 	margin: 1%;
+	border-radius: 20px;
+	padding: 1%;
+}
+
+.container_hebergement {
+	box-sizing: border-box;
+	display: grid;
+	grid-template-rows: 65% auto;
+	height: 160px;
+	margin: 0;
+	padding: 0;
+	border-radius: inherit;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
 }
 
 .grid_container_populaire {
@@ -110,6 +124,7 @@ body {
 	border-bottom-right-radius: 0;
 	border-top-right-radius: 0;
 }
+
 .grid_item_populaire_case_1 {
 	background-size: cover;
 	background-position: center;
@@ -185,6 +200,10 @@ footer li {
 .grid_item_footer {
 	padding-left: 6%;
 	padding-bottom: 30px;
+}
+
+#img_hebergement_1 {
+	background-image: url(../img/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
 }
 
 #img_populaire_1 {
