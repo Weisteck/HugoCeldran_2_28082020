@@ -23,6 +23,50 @@ p {
 	font-size: 20px;
 }
 
+.top_page {
+	margin-bottom: 40px;
+}
+
+button {
+	background-color: #0065FC;
+	color: white;
+	border: none;
+	padding: 15px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+#Filtres {
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.contour {
+	margin-left: 2%;
+	border-color: #F2F2F2;
+	border-style: solid;
+	border-radius: 50px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-right: 2%;
+}
+
+.fas {
+	margin-right: 1%;
+	background-color: #DEEBFF;
+	color: #0065FC;
+	padding: 15px;
+	border-radius: 100%;
+}
+
+#info {
+	margin-top: 40px;
+	font-size: 18px;
+}
+
 .page_contain {
 	margin-right: 2%;
 	margin-left: 2%;
@@ -39,16 +83,6 @@ p {
 	grid-template-columns: auto auto auto;
 	padding-top: 20px;
 	font-size: 20px;
-}
-
-.grid_container_search {
-	display: grid;
-	grid-template-columns: 3% 15% 10%;
-}
-
-.grid_container_filtres {
-	display: inline-grid;
-	grid-template-columns: auto auto auto auto auto;
 }
 
 .middle_page {
@@ -79,8 +113,8 @@ p {
 
 .grid_container_hebergement {
 	display: grid;
-	grid-template-columns: auto auto auto;
-	grid-column-gap: 2%;
+	grid-template-columns: 33% 33% 33%;
+	grid-column-gap: 1%;
 	grid-row-gap: 10px;
 	margin: 100px 5%;
 	box-sizing: border-box;
@@ -111,6 +145,7 @@ p {
 	height: 160px;
 	object-fit: cover;
 	width: 100%;
+	object-position: center;
 }
 
 .dispo_heb h3 {
@@ -154,7 +189,6 @@ p {
 	box-sizing: border-box;
 	display: grid;
 	grid-template-columns: 40% auto;
-	height: 160px;
 	margin: 0;
 	padding: 0;
 	border-radius: inherit;
@@ -163,15 +197,13 @@ p {
 }
 
 .grid_item_populaire_case_1 {
-	background-size: cover;
-	background-position: center;
 	border-radius: inherit;
-}
-
-/* .grid_item_populaire_case_1 {
-	border-radius: inherit;
+	box-sizing: border-box;
 	object-fit: cover;
-} */
+	object-position: center;
+	height: 160px;
+	width: 100%;
+}
 
 .grid_item_populaire_case_2 {
 	padding-left: 8%;
@@ -199,14 +231,15 @@ p {
 .grid_container_bottom {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
-	grid-row-gap : 10px;
-	height: 650px;
-	background-color: pink;
 	grid-column-gap: 5%;
+	grid-row-gap: 20px;
 }
 
 .grid_item_bottom {
-	background-color : yellow;
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-row-gap: 0;
+	border-radius: 20px;
 }
 
 .item1 {
@@ -218,8 +251,42 @@ p {
 	grid-column: 3 / 3;
 }
 
+.item_bas_activite {
+	height: 40px;
+	background-color: white;
+}
+
+.item_bas_activite h3 {
+	margin: 0;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 5%;
+}
+
+.img_activite_haute {
+	border-radius: inherit;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	box-sizing: border-box;
+	object-fit: cover;
+	object-position: center;
+	height: 650px;
+	width: 100%;
+}
+
+.img_activite_basse {
+	border-radius: inherit;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	box-sizing: border-box;
+	object-fit: cover;
+	object-position: center;
+	height: 290px;
+	width: 100%;
+}
+
 footer {
-	margin-top: 20px;
+	margin-top: 50px;
 	background-color: #F2F2F2;
 }
 
@@ -246,42 +313,6 @@ footer li {
 
 #logo {
 	height: 60px;
-}
-
-#img_hebergement_1 {
-	background-image: url(../img/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
-}
-
-#img_hebergement_2 {
-	background-image: url(../img/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
-}
-
-#img_hebergement_3 {
-	background-image: url(../img/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg);
-}
-
-#img_hebergement_4 {
-	background-image: url(../img/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
-}
-
-#img_hebergement_5 {
-	background-image: url(../img/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
-}
-
-#img_hebergement_6 {
-	background-image: url(../img/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
-}
-
-#img_populaire_1 {
-	background-image: url(../img/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
-}
-
-#img_populaire_2 {
-	background-image: url(../img/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg);
-}
-
-#img_populaire_3 {
-	background-image: url(../img/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
 }
 
 @media all and (max-width: 650px) {

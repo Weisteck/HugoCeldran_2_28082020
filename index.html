@@ -5,6 +5,7 @@
 		<title>Reservia</title>
 		<link rel="stylesheet" href="css/styles.css">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<script src="https://kit.fontawesome.com/b806e69ffc.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<div class="page_contain">
@@ -34,37 +35,35 @@
 						<h2>Trouvez votre hébergement pour des vacances de rêve</h2>
 						<p>En plein centre ville ou pleine nature</p>
 					</div>
-					<div class="grid_container_search">
-						<div class="grid_item_search">icon</div>
-						<div class="grid_item_search">Marseille, France</div>
-						<div class="grid_item_search"><button>Rechercher</button></div>
+					<div id="recherche">
+						<i class="fas fa-map-marker-alt"></i>
+						<span>Marseille, France</span>
+						<button>Rechercher</button>
 					</div>
-					<div class="grid_container_filtres">
-						<div>
+					<div id="Filtres">
+						<span>
 							Filtres
-						</div>
-						<div>
-							<div>icone</div>
-							<div>Economique</div>
-						</div>
-						<div>
-							<div>icone</div>
-							<div>Familial</div>
-						</div>
-						<div>
-							<div>icone</div>
-							<div>Romantique</div>
-						</div>
-						<div>
-							<div>icone</div>
-							<div>Animaux autorisés</div>
-						</div>
+						</span>
+						<span class="contour">
+							<i class="fas fa-money-bill-wave-alt"></i>
+							Economique
+						</span>
+						<span class="contour">
+							<i class="fas fa-child"></i>
+							Familial
+						</span>
+						<span class="contour">
+							<i class="fas fa-heart"></i>
+							Romantique
+						</span>
+						<span class="contour">
+							<i class="fas fa-dog"></i>
+							Animaux autorisés
+						</span>
 					</div>
-					<div>
-						<div>icone</div>
-						<div>
-							<p>Plus de 500 logements sont disponibles dans cette ville</p>
-						</div>
+					<div id="info">
+						<i class="fas fa-info-circle"></i>
+						<span>Plus de 500 logements sont disponibles dans cette ville</span>
 					</div>
 				</div>
 			</section>
@@ -105,7 +104,7 @@
 							<div class="grid_item_hebergement">
 								<div class="container_hebergement">
 									<!-- <div class="item_hebergement_1" id="img_hebergement_3"></div> -->
-									<img class="item_hebergement_1" src="img/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
+									<img class="item_hebergement_1" src="img/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
 									<div class="dispo_heb">
 										<div>
 											<h3>Auberge la Cannebière</h3>
@@ -120,7 +119,7 @@
 							<div class="grid_item_hebergement">
 								<div class="container_hebergement">
 									<!-- <div class="item_hebergement_1" id="img_hebergement_4"></div> -->
-									<img class="item_hebergement_1" src="img/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
+									<img class="item_hebergement_1" src="img/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
 									<div class="dispo_heb">
 										<div>
 											<h3>Auberge la Cannebière</h3>
@@ -135,7 +134,7 @@
 							<div class="grid_item_hebergement">
 								<div class="container_hebergement">
 									<!-- <div class="item_hebergement_1" id="img_hebergement_5"></div> -->
-									<img class="item_hebergement_1" src="img/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
+									<img class="item_hebergement_1" src="img/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
 									<div class="dispo_heb">
 										<div>
 											<h3>Auberge la Cannebière</h3>
@@ -150,7 +149,7 @@
 							<div class="grid_item_hebergement">
 								<div class="container_hebergement">
 									<!-- <div class="item_hebergement_1" id="img_hebergement_6"></div> -->
-									<img class="item_hebergement_1" src="img/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
+									<img class="item_hebergement_1" src="img/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
 									<div class="dispo_heb">
 										<div>
 											<h3>Auberge la Cannebière</h3>
@@ -168,9 +167,8 @@
 						<div class="grid_container_populaire">
 							<div class="grid_item_populaire">
 								<div class="grid_container_populaire_case">
-									<div class="grid_item_populaire_case_1" id="img_populaire_1">
-										<!-- <img class="grid_item_populaire_case_1" src="img/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt=""> -->
-									</div>
+									<!-- <div class="grid_item_populaire_case_1" id="img_populaire_1"> </div>-->
+									<img class="grid_item_populaire_case_1" src="img/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
 									<div class="grid_item_populaire_case_2">
 										<div class="dispo_etoile">
 											<div>
@@ -186,9 +184,8 @@
 							</div>
 							<div class="grid_item_populaire">
 								<div class="grid_container_populaire_case">
-									<!-- <div class="grid_item_populaire_case_1" id="img_populaire_2"> -->
-										<img class="grid_item_populaire_case_1" src="img/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
-									</div>
+									<!-- <div class="grid_item_populaire_case_1" id="img_populaire_2"> </div>-->
+									<img class="grid_item_populaire_case_1" src="img/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="">
 									<div class="grid_item_populaire_case_2">
 										<div class="dispo_etoile">
 											<div>
@@ -204,9 +201,8 @@
 							</div>
 							<div class="grid_item_populaire">
 								<div class="grid_container_populaire_case">
-									<!-- <div class="grid_item_populaire_case_1" id="img_populaire_3"> -->
-									<img class="grid_item_populaire_case_1" src="img/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
-									</div>
+									<!-- <div class="grid_item_populaire_case_1" id="img_populaire_3"> </div>-->
+									<img class="grid_item_populaire_case_1" src="img/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="">
 									<div class="grid_item_populaire_case_2">
 										<div class="dispo_etoile">
 											<div>
@@ -226,12 +222,42 @@
 			</section>
 			<section class="bottom-page">
 				<div class="grid_container_bottom">
-					<div class="item1 grid_item_bottom">1</div>
-					<div class="item2 grid_item_bottom">2</div>
-					<div class="item3 grid_item_bottom">3</div>
-					<div class="item4 grid_item_bottom">4</div>
-					<div class="item5 grid_item_bottom">5</div>
-					<div class="item6 grid_item_bottom">6</div>
+					<div class="item1 grid_item_bottom">
+						<img class="img_activite_haute" src="img/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="">
+						<div class="item_bas_activite">
+							<h3>Vieux Port</h3>
+						</div>
+					</div>
+					<div class="item2 grid_item_bottom">
+						<img class="img_activite_basse" src="img/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
+						<div class="item_bas_activite">
+							<h3>Fort de Pomègues</h3>
+						</div>
+					</div>
+					<div class="item3 grid_item_bottom">
+						<img class="img_activite_haute" src="img/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="">
+						<div class="item_bas_activite">
+							<h3>Parc National des Calanques</h3>
+						</div>
+					</div>
+					<div class="item4 grid_item_bottom">
+						<img class="img_activite_basse" src="img/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
+						<div class="item_bas_activite">
+							<h3>Notre-Dame-de-la-Garde</h3>
+						</div>
+					</div>
+					<div class="item5 grid_item_bottom">
+						<img class="img_activite_basse" src="img/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
+						<div class="item_bas_activite">
+							<h3>Iles du Frioul</h3>
+						</div>
+					</div>
+					<div class="item6 grid_item_bottom">
+						<img class="img_activite_basse" src="img/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
+						<div class="item_bas_activite">
+							<h3>Parc Longchamp</h3>
+						</div>
+					</div>
 				</div>
 			</section>
 		</div>
