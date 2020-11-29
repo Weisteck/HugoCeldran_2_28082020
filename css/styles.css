@@ -126,6 +126,7 @@ button {
 	margin: 1%;
 	border-radius: 20px;
 	padding: 1%;
+	box-shadow: 10px 10px 50px #9999996c;
 }
 
 .container_hebergement {
@@ -183,6 +184,7 @@ button {
 	margin: 1%;
 	border-radius: 20px;
 	padding: 1%;
+	box-shadow: 10px 10px 50px #9999996c;
 }
 
 .grid_container_populaire_case {
@@ -240,6 +242,7 @@ button {
 	grid-template-rows: auto auto;
 	grid-row-gap: 0;
 	border-radius: 20px;
+	box-shadow: 10px 10px 50px #9999996c;
 }
 
 .item1 {
@@ -252,8 +255,9 @@ button {
 }
 
 .item_bas_activite {
-	height: 40px;
+	height: 60px;
 	background-color: white;
+	border-radius: inherit;
 }
 
 .item_bas_activite h3 {
