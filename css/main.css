@@ -46,6 +46,10 @@ a:link, a:visited {
     margin-right: 0;
 }
 
+#icone-search {
+    display: none;
+}
+
 a:hover {
     border-top: solid;
     border-color: #0065FC;
