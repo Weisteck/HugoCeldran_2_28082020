@@ -1,0 +1,44 @@
+.top_page {
+	margin-bottom: 40px;
+}
+
+.fa-map-marker-alt {
+	color: black;
+	border-radius: 15px 0 0 15px;
+	background-color: #F2F2F2;
+	margin: 0;
+	padding: 15px 20px;
+}
+
+.fa-search {
+	display: none;
+}
+
+#Filtres {
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.contour {
+	margin-left: 2%;
+	border-color: #F2F2F2;
+	border-style: solid;
+	border-radius: 50px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-right: 2%;
+	white-space: nowrap;
+}
+
+#info {
+	margin-top: 40px;
+	font-size: 18px;
+}
+
+.fa-info {
+	background-color: white;
+	border-color: #F2F2F2;
+	border-style: solid;
+	padding: 10px 15px;
+}

@@ -1,0 +1,111 @@
+*, ::before, ::after {
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src : url('../Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Raleway-italic';
+	src : url('../Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+	font-family: 'Raleway';
+	margin: 0;
+}
+
+h2 {
+	font-size: 25px;
+	margin-bottom: 0;
+}
+
+p {
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+.fas {
+	margin-right: 1%;
+	background-color: #DEEBFF;
+	color: #0065FC;
+	padding: 15px;
+	border-radius: 100%;
+}
+
+a:link, a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+#inscription {
+    color: #0065FC;
+    margin-right: 0;
+}
+
+a:hover {
+    border-top: solid;
+    border-color: #0065FC;
+    color: #0065FC;
+}
+
+header {
+	margin-bottom: 15px;
+}
+
+.lien {
+    display: block;
+    padding: 8px;
+    float: right;
+    padding-top: 40px;
+    margin-right: 5%;
+}
+
+#logo {
+	height: 60px;
+	padding-top: 30px;
+}
+
+picture {
+	border-radius: inherit;
+}
+
+button {
+	background-color: #0065FC;
+	color: white;
+	border: none;
+	padding: 15px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+input {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.page_contain {
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+/* .grid_container_nav {
+	display: grid;
+	grid-template-columns: 65% auto;
+	margin-top: 30px;
+}
+
+.grid_container_lien {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding-top: 20px;
+	font-size: 20px;
+} */
