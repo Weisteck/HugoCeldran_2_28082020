@@ -60,16 +60,35 @@
 	.img_activite_haute, .img_activite_basse {
 		height: 200px;
 	}
+	#subscribe {
+		display: inline;
+	}
 
-	.lien {
-		float: none;
+	#loisirs {
 		display: inline-block;
-		margin: 0;
-		margin-top: 10px;
-		/*padding: 10px 3%;*/
-		padding: 0;
-		width: 49%;
-		text-align: center;
+		width: 100%;
+	}
+
+	.lien  {
+		margin: 0%;
+	}
+
+	.lien2 {
+		float: none;
+		padding: 0%;
+		display: inline-block;
+		margin-top: 20px;
+	}
+
+
+	#help {
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+
+	#help2 {
+		padding-left: 12%;
+		padding-right: 14%;
 	}
 
 	a:hover {
@@ -80,14 +99,7 @@
 	}
 
 	#logo {
-		padding-top: 0;
-	}
-
-	#inscription {
-		display: inline-block;
-		float: right;
-		margin-left: 30%;
-		margin-top: 0px;
+		padding: 10px;
 	}
 
 	#inscription:hover {
@@ -120,5 +132,25 @@
 
 	#icone-search {
 		display: inline;
+	}
+
+	input {
+		font-size: 18px;
+	}
+
+	.top_page {
+		margin: 4%;
+	}
+
+	.grid_item_footer {
+		padding-top: 20px;
+	}
+	
+	#recherche {
+		margin-top: 20px;
+	}
+
+	div div h2 {
+		margin: 20px 0;
 	}
 } 
