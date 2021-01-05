@@ -3,6 +3,10 @@
 		margin: 0;
 	}
 
+	header {
+		font-size: 24px;
+	}
+
 	.grid_container_middle {
 		display: grid;
 		grid-template-areas: "b" "a";
