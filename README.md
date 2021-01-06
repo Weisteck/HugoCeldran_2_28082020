@@ -4,7 +4,7 @@
 
 ### Desktop 
 
-![DesktopView](HugoCeldran_2_28082020/Projet+2+-+Reservia+FR/Projet 2 - Reservia/Desktop-1.png)
+![DesktopView](https://raw.githubusercontent.com/Weisteck/HugoCeldran_2_28082020/master/Projet%2B2%2B-%2BReservia%2BFR/Projet%202%20-%20Reservia/Desktop-1.png)
 
 ### Mobile 
 
