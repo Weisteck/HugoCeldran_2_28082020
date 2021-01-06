@@ -4,7 +4,7 @@
 
 ### Desktop 
 
-![DesktopView](Projet+2+-+Reservia+FR/Desktop-1.png)
+![DesktopView](HugoCeldran_2_28082020/Projet+2+-+Reservia+FR/Projet 2 - Reservia/Desktop-1.png)
 
 ### Mobile 
 
