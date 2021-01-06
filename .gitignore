@@ -1,5 +1,5 @@
 #ignore documentation
-Projet+*
+#Projet+*
 #ignore les fichiers qui servent pas
 Raleway/*.txt
 #ignore les ecritures non nécessaires
