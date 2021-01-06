@@ -12,7 +12,7 @@
 
 ### Tablette
 
-Libre tant que le rendu ne fait pas moche.
+Libre tant que le rendu ne fait pas moche. :smile:
 
 ## Les autres contraintes 
 
