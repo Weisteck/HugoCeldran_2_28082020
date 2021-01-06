@@ -4,11 +4,11 @@
 
 ### Desktop 
 
-![DesktopView](/Projet+2+-+Reservia+FR/Desktop-1.png)
+![DesktopView](Projet+2+-+Reservia+FR/Desktop-1.png)
 
 ### Mobile 
 
-![MobileView](/Projet+2+-+Reservia+FR/iPhone8-1.png)
+![MobileView](Projet+2+-+Reservia+FR/iPhone8-1.png)
 
 ### Tablette
 
