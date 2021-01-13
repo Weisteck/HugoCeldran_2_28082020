@@ -78,21 +78,13 @@
 	}
 
 	.lien2 {
-		float: none;
+		float: left;
 		padding: 0%;
 		display: inline-block;
 		margin-top: 20px;
-	}
-
-
-	#help {
-		padding-left: 8%;
-		padding-right: 5%;
-	}
-
-	#help2 {
-		padding-left: 12%;
-		padding-right: 14%;
+		width: 50%;
+		text-align: center;
+		padding-bottom: 15px;
 	}
 
 	a:hover {
